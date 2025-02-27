@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 int main() {
-    int i = 12345;  // 變數 i 代表輸入數字
+    int i = 12345;  
     int first;
-    int last = i % 10;  // 取得最後一位數
+    int last = i % 10; 
 
-    while (i >= 10) {  // 迴圈取得第一位數
+    while (i >= 10) {
         i /= 10;
     }
     first = i;
