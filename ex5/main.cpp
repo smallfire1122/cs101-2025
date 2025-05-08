@@ -18,7 +18,7 @@ public:
     string m_model;
     int m_year;
 
-    Car(string x, string y, int z, int s) {
+Car(string x, string y, int z, int s) {
         m_brand = x;
         m_model = y;
         m_year = z;
